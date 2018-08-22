@@ -18,24 +18,40 @@
         <ul class="flex-outer">
             <li>
                 <label for="full_name"> Full Name: </label>
-                <input id="full_name" name="full_name" placeholder="Full Name" />
+                <input id="full_name" name="full_name" required placeholder="Full Name" />
             </li>
             <li>
                 <label for="designation"> Designation: </label>
-                <input id="designation" name="designation" placeholder="Designation" />
+                <input id="designation" name="designation" required placeholder="Designation" />
             </li>
-            <!--<li>-->
-                <!--<label for="email">Email</label>-->
-                <!--<input type="email" id="email" placeholder="Enter your email here">-->
-            <!--</li>-->
-            <!--<li>-->
-                <!--<label for="phone">Phone</label>-->
-                <!--<input type="tel" id="phone" placeholder="Enter your phone here">-->
-            <!--</li>-->
-            <!--<li>-->
-                <!--<label for="message">Message</label>-->
-                <!--<textarea rows="6" id="message" placeholder="Enter your message here"></textarea>-->
-            <!--</li>-->
+            <li>
+                <label for="email">Email Address:</label>
+                <input id="email" name="email" type="email" value=""
+                       required placeholder="your.name@email.com"/>
+                <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+                <!--TODO : check this invalid checking-->
+            </li>
+            <li>
+                <label for="contact_no">Contact Number:</label>
+                <input id="contact_no" name="contact_no" type="number" value=""
+                       required placeholder="Contact Number"/>
+                <!--TODO : type for number-->
+            </li>
+            <li>
+                <label for="address">Address: </label>
+                <textarea id="address" name="address" rows="5"
+                          required placeholder="Address"></textarea>
+            </li>
+            <li>
+                <label for="field">Field Of Expertise: </label>
+                <input id="field" name="field" required placeholder="Field" />
+            </li>
+            <li>
+                <label for="brief_description">Brief Description about the topic  </label>
+                <textarea id="brief_description" name="brief_description" required rows="10"></textarea>
+            </li>
+
             <!--<li>-->
                 <!--<p>Age</p>-->
                 <!--<ul class="flex-inner">-->
