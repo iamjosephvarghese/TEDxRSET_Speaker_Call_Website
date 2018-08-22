@@ -1,0 +1,22 @@
+{
+  "name": "tedxrset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamjosephvarghese/tedx_rset.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamjosephvarghese/tedx_rset/issues"
+  },
+  "homepage": "https://github.com/iamjosephvarghese/tedx_rset#readme",
+  "dependencies": {
+    "conversational-form": "^0.9.83"
+  }
+}
