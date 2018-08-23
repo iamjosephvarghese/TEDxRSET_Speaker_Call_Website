@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2437f5fe-c145-4c26-8254-25db8f1fdc73" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/speakercall.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/speakercall.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/speaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/speaker.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,12 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="349" />
+          <entry key="css" value="10" />
+          <entry key="html" value="472" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="349" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="472" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/speaker.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+            <state relative-caret-position="280">
+              <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -119,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/speakercall.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="425">
+              <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -168,6 +171,7 @@
         <option value="$PROJECT_DIR$/assets/css/speaker_call.css" />
         <option value="$PROJECT_DIR$/speaker_call.html" />
         <option value="$PROJECT_DIR$/dist/css/speakercall.css" />
+        <option value="$PROJECT_DIR$/assets/css/speakercall.css" />
         <option value="$PROJECT_DIR$/speaker.html" />
       </list>
     </option>
@@ -284,12 +288,12 @@
       <workItem from="1534235825441" duration="1369000" />
       <workItem from="1534749132851" duration="7000" />
       <workItem from="1534752002219" duration="1270000" />
-      <workItem from="1534965590047" duration="2501000" />
+      <workItem from="1534965590047" duration="3575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13540000" />
+    <option name="totallyTimeSpent" value="14614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -447,15 +451,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/speakercall.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="425">
+          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/speaker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="50" column="81" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
+        <state relative-caret-position="280">
+          <caret line="63" column="33" lean-forward="true" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
