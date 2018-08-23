@@ -18,6 +18,20 @@
     <meta itemprop="keywords" content="TEDxRSET, TEDxRSET 2018, RSET, Rajagiri, Engineering, RSET NAAC, Kochi, Kakkanad, Ernakulam, ktu, speaker call"/>
 
 
+    <!--OpenGraph-->
+    <meta property="og:title" content="TEDxRSET">
+    <meta property="og:site_name" content="TEDxRSET | NOVEMBER 4, 2018 | RSET">
+
+    <!--Twitter-->
+    <meta name="twitter:domain" content="http://tedxrset.com"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@TEDxRSET">
+    <meta name="twitter:creator" content="@TEDxRSET">
+    <meta name="twitter:title" content="TEDxRSET | RSET">
+    <meta name="twitter:description" content="TEDxRSET | NOVEMBER 4 2018">
+    <meta name="twitter:image" content="">
+
+
 
     <link rel="stylesheet" href="assets/css/speakercall.css">
     <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
@@ -29,25 +43,26 @@
 <body>
         
                 <img class="centerimg" src="assets/img/speakercall2.jpg">
+                <br>
             
 <div class="container">
     
   
 
     <form class="gform" method="POST" data-email="example@email.net"
-          action="https://script.google.com/macros/s/AKfycby3umXp3L4PXlyAFQ-0wfpGdv_RMvjVL_KcuHu1kcOzeWGwhpKA/exec">
+          action="https://script.google.com/macros/s/AKfycbyG_A3jhb_K_kkeEXqNx9f2E-X1VwRFgWgTJnOcpCBiI0eM5SE/exec">
        <div class="form-elements">
         <ul class="flex-outer">
             <li>
-                <label for="full_name" style="font-family: 'Armata', sans-serif;"> Full Name: </label>
+                <label for="full_name" style="font-family: 'Armata', sans-serif;">Full Name *</label>
                 <input id="full_name" type=text name="full_name" required placeholder="eg: Your Name" style="font-family: 'Armata', sans-serif;"/>
             </li>
             <li>
-                <label for="designation" style="font-family: 'Armata', sans-serif;"> Designation: </label>
+                <label for="designation" style="font-family: 'Armata', sans-serif;"> Designation *</label>
                 <input id="designation" name="designation" required placeholder="eg: Freelancer"style="font-family: 'Armata', sans-serif;" />
             </li>
             <li>
-                <label for="email" style="font-family: 'Armata', sans-serif;">Email Address:</label>
+                <label for="email" style="font-family: 'Armata', sans-serif;">Email Address *</label>
                 <input id="email" name="email" type="email" value=""
                        required placeholder="your.name@email.com" style="font-family: 'Armata', sans-serif;"/>
                 <span class="email-invalid" style="display:none">
@@ -55,31 +70,31 @@
                 <!--TODO : check this invalid checking-->
             </li>
             <li>
-                <label for="contact_no"style="font-family: 'Armata', sans-serif;">Contact Number:</label>
+                <label for="contact_no"style="font-family: 'Armata', sans-serif;">Contact Number *</label>
                 <input id="contact_no" name="contact_no" type="number" value=""
                       maxlength="10" required placeholder="eg: 9447718219" style="font-family: 'Armata', sans-serif;"/>
                 <!--TODO : type for number-->
             </li>
             <li>
-                <label for="address" style="font-family: 'Armata', sans-serif;">Address: </label>
+                <label for="address" style="font-family: 'Armata', sans-serif;">Address *</label>
                 <textarea id="address" name="address" rows="5"
                           required style="font-family: 'Armata', sans-serif;" placeholder="eg: Kakkanad, Kochi, Kerala"></textarea>
             </li>
             <li>
-                <label for="field" style="font-family: 'Armata', sans-serif;">Field Of Expertise: </label>
+                <label for="field" style="font-family: 'Armata', sans-serif;">Field Of Expertise *</label>
                 <input id="field" style="font-family: 'Armata', sans-serif;" name="field" required placeholder="eg: Technical " />
             </li>
             <li>
-                <label for="brief_description" style="font-family: 'Armata', sans-serif;">Please give a brief description of your interpretation of the theme:</label>
+                <label for="brief_description" style="font-family: 'Armata', sans-serif;">Please give a brief description of your interpretation of the theme *</label>
                 <textarea id="brief_description" style="font-family: 'Armata', sans-serif;" name="brief_description" required rows="10" placeholder="What do understand from the theme ?"></textarea>
             </li>
             <li>
-                <label for="topic" style="font-family: 'Armata', sans-serif;">Keeping this theme in mind, what would your TEDx talk be about?</label>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Keeping this theme in mind, what would your TEDx talk be about? *</label>
                 <textarea id="topic" style="font-family: 'Armata', sans-serif;" name="topic" required rows="10" required placeholder="Topic"></textarea>
             </li>
 
             <li>
-                <label for="tedx_past" style="font-family: 'Armata', sans-serif;">Do you have any prior experience as a TED/TEDx  speaker?</label>
+                <label for="tedx_past" style="font-family: 'Armata', sans-serif;">Do you have any prior experience as a TED/TEDx  speaker? *</label>
                 <div id="tedx_past" required style="font-family: 'Armata', sans-serif;">
                     <input type="radio" name="tedx_past" value="Yes"> Yes<br>
                     <input type="radio" name="tedx_past" value="No"> No
@@ -88,11 +103,11 @@
 
             <li>
                 <label for="old_link" style="font-family: 'Armata', sans-serif;">If yes, please provide the link to your TED/TEDx talk.</label>
-                <input id="old_link" style="font-family: 'Armata', sans-serif;" name="old_link" required placeholder="URL" />
+                <input id="old_link" style="font-family: 'Armata', sans-serif;" name="old_link"  placeholder="URL" />
             </li>
             <li>
                 <label for="other_talks" style="font-family: 'Armata', sans-serif;">Please provide details of  any past speaking experiences you have other than TED/TEDx talks.(Provide links if any separated by commas)</label>
-                <textarea id="other_talks" style="font-family: 'Armata', sans-serif;" name="other_talks" required rows="10" required placeholder="Past Experiences"></textarea>
+                <textarea id="other_talks" style="font-family: 'Armata', sans-serif;" name="other_talks"  rows="10"  placeholder="Past Experiences"></textarea>
             </li>
 
 
