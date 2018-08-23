@@ -18,11 +18,11 @@
         <ul class="flex-outer">
             <li>
                 <label for="full_name"> Full Name: </label>
-                <input id="full_name" name="full_name" required placeholder="Full Name" />
+                <input id="full_name" name="full_name" required placeholder="eg: Your Name" />
             </li>
             <li>
                 <label for="designation"> Designation: </label>
-                <input id="designation" name="designation" required placeholder="Designation" />
+                <input id="designation" name="designation" required placeholder="eg: Freelancer" />
             </li>
             <li>
                 <label for="email">Email Address:</label>
@@ -35,17 +35,17 @@
             <li>
                 <label for="contact_no">Contact Number:</label>
                 <input id="contact_no" name="contact_no" type="number" value=""
-                       required placeholder="Contact Number"/>
+                      maxlength="10" required placeholder="eg: 9447718219"/>
                 <!--TODO : type for number-->
             </li>
             <li>
                 <label for="address">Address: </label>
                 <textarea id="address" name="address" rows="5"
-                          required placeholder="Address"></textarea>
+                          required placeholder="eg: Kakkanad, Kochi, Kerala"></textarea>
             </li>
             <li>
                 <label for="field">Field Of Expertise: </label>
-                <input id="field" name="field" required placeholder="Field" />
+                <input id="field" name="field" required placeholder="eg: Technical " />
             </li>
             <li>
                 <label for="brief_description">Brief Description about the topic  </label>
@@ -54,10 +54,10 @@
 
             <li>
                 <label for="tedx_past">Do you have past tedx experince  </label>
-                <select name="tedx_past" id="tedx_past">
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                </select>
+                <div id="tedx_past">
+                    <input type="radio" name="tedx_past" value="Yes"> Yes<br>
+                    <input type="radio" name="tedx_past" value="No"> No    
+                </div>
             </li>
 
             <!--<li>-->
