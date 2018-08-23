@@ -6,6 +6,8 @@
     <meta name="description" content="contact form example">
     <title>Contact Form Example</title>
     <link rel="stylesheet" href="assets/css/speakercall.css">
+    <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+
 
 
 </head>
@@ -23,48 +25,62 @@
        <div class="form-elements">
         <ul class="flex-outer">
             <li>
-                <label for="full_name"> Full Name: </label>
-                <input id="full_name" type=text name="full_name" required placeholder="eg: Your Name" />
+                <label for="full_name" style="font-family: 'Armata', sans-serif;"> Full Name: </label>
+                <input id="full_name" type=text name="full_name" required placeholder="eg: Your Name" style="font-family: 'Armata', sans-serif;"/>
             </li>
             <li>
-                <label for="designation"> Designation: </label>
-                <input id="designation" name="designation" required placeholder="eg: Freelancer" />
+                <label for="designation" style="font-family: 'Armata', sans-serif;"> Designation: </label>
+                <input id="designation" name="designation" required placeholder="eg: Freelancer"style="font-family: 'Armata', sans-serif;" />
             </li>
             <li>
-                <label for="email">Email Address:</label>
+                <label for="email" style="font-family: 'Armata', sans-serif;">Email Address:</label>
                 <input id="email" name="email" type="email" value=""
-                       required placeholder="your.name@email.com"/>
+                       required placeholder="your.name@email.com" style="font-family: 'Armata', sans-serif;"/>
                 <span class="email-invalid" style="display:none">
           Must be a valid email address</span>
                 <!--TODO : check this invalid checking-->
             </li>
             <li>
-                <label for="contact_no">Contact Number:</label>
+                <label for="contact_no"style="font-family: 'Armata', sans-serif;">Contact Number:</label>
                 <input id="contact_no" name="contact_no" type="number" value=""
-                      maxlength="10" required placeholder="eg: 9447718219"/>
+                      maxlength="10" required placeholder="eg: 9447718219" style="font-family: 'Armata', sans-serif;"/>
                 <!--TODO : type for number-->
             </li>
             <li>
-                <label for="address">Address: </label>
+                <label for="address" style="font-family: 'Armata', sans-serif;">Address: </label>
                 <textarea id="address" name="address" rows="5"
-                          required placeholder="eg: Kakkanad, Kochi, Kerala"></textarea>
+                          required style="font-family: 'Armata', sans-serif;" placeholder="eg: Kakkanad, Kochi, Kerala"></textarea>
             </li>
             <li>
-                <label for="field">Field Of Expertise: </label>
-                <input id="field" name="field" required placeholder="eg: Technical " />
+                <label for="field" style="font-family: 'Armata', sans-serif;">Field Of Expertise: </label>
+                <input id="field" style="font-family: 'Armata', sans-serif;" name="field" required placeholder="eg: Technical " />
             </li>
             <li>
-                <label for="brief_description">Brief Description about the topic  </label>
-                <textarea id="brief_description" name="brief_description" required rows="10" placeholder="What do understand from the theme ?"></textarea>
+                <label for="brief_description" style="font-family: 'Armata', sans-serif;">Please give a brief description of your interpretation of the theme:</label>
+                <textarea id="brief_description" style="font-family: 'Armata', sans-serif;" name="brief_description" required rows="10" placeholder="What do understand from the theme ?"></textarea>
+            </li>
+            <li>
+                <label for="topic" style="font-family: 'Armata', sans-serif;">Keeping this theme in mind, what would your TEDx talk be about?</label>
+                <textarea id="topic" style="font-family: 'Armata', sans-serif;" name="topic" required rows="10" required placeholder="Topic"></textarea>
             </li>
 
             <li>
-                <label for="tedx_past">Do you have past tedx experince  </label>
-                <div id="tedx_past">
+                <label for="tedx_past" style="font-family: 'Armata', sans-serif;">Do you have any prior experience as a TED/TEDx  speaker?</label>
+                <div id="tedx_past" required style="font-family: 'Armata', sans-serif;">
                     <input type="radio" name="tedx_past" value="Yes"> Yes<br>
-                    <input type="radio" name="tedx_past" value="No"> No    
+                    <input type="radio" name="tedx_past" value="No"> No
                 </div>
             </li>
+
+            <li>
+                <label for="old_link" style="font-family: 'Armata', sans-serif;">If yes, please provide the link to your TED/TEDx talk.</label>
+                <input id="old_link" style="font-family: 'Armata', sans-serif;" name="old_link" required placeholder="URL" />
+            </li>
+            <li>
+                <label for="other_talks" style="font-family: 'Armata', sans-serif;">Please provide details of  any past speaking experiences you have other than TED/TEDx talks.(Provide links if any separated by commas)</label>
+                <textarea id="other_talks" style="font-family: 'Armata', sans-serif;" name="other_talks" required rows="10" required placeholder="Past Experiences"></textarea>
+            </li>
+
 
             <!--<li>-->
                 <!--<p>Age</p>-->
