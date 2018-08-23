@@ -46,7 +46,7 @@ body {
 .flex-outer li label,
 .flex-outer li p {
     padding: 8px;
-    font-weight: 300;
+    font-weight: 450;
     letter-spacing: .09em;
     text-transform: uppercase;
 }
@@ -101,3 +101,15 @@ body {
 .flex-inner li {
     width: 100px;
 }
+.centerimg    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 2em; 
+}
+textarea:focus, input:focus{
+    outline: 0.5px solid #c72525;
+    box-shadow: 0 0 10px #c72525;    
+  }
