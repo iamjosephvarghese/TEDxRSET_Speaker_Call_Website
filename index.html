@@ -42,7 +42,11 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
-<style> button {
+<style> 
+body{
+  background: white;
+}
+button {
     margin-left: auto;
     border: none;
     background: #E62B1E;
@@ -61,7 +65,29 @@ button:hover {
     -o-transition: 0.5s ease-out;
     -ms-transition: 0.5s ease-out;
     transition: 0.2s ease-out;
-    }</style>
+    }
+
+    @media (max-width: 900px){
+.contentText1 {
+  margin-top: 10rem !important;
+    }
+    .presentersSection{
+      margin-top: 5rem;
+    }}
+    @media (max-width: 768px){
+      .presentersSection{
+      margin-top: 8.5rem;
+    }
+    }
+    
+    @media (max-width: 425px){
+.aboutSection {
+    height: 800px;
+}
+.presentersSection{
+      margin-top: 10rem;
+    }}
+</style>
 </head>
 <body>
 
@@ -294,13 +320,15 @@ button:hover {
   
   <section class="aboutSection" id="sectionSobre" style="background: #fff;">
     
-    <div class="contentText">
+    <div class="contentText contentText1">
       <h2 style="font-family: 'Armata', sans-serif;">Hypercubes Beyond Dimensions</h2>
       <p style="font-family: 'Armata', sans-serif;">
           We have always been limited by the extent to which we know things. Ironically our acceptance of novel ideas is slow and tedious. The whole world once laughed when it was suggested that the earth is spherical or on the suggestion that man could walk on the moon and yet when it was done the whole world stood in awe. Let us embrace the movement and bring it to the next dimension. Let's go from a line to a square to a cube and every hypercube possible.<br> <br>
         Connecting people to reflect and transform each other is one of the great purposes of this first edition of TEDxRSET. </p>
         <!--<a href="https://in.explara.com/e/tedxsjcetpalai" target="none"><button style="background:#ff2b06;border: none;width:100%" style="font-family: 'Armata', sans-serif;">BUY TICKETS</button></a>-->
-    </div>
+        <center> <a href="speaker.html"><button>Speaker Call</button></a>
+        </center>
+      </div>
     
     <div class="contentLogo">
       <img src="src/svg/TEDxRSET4.png">
