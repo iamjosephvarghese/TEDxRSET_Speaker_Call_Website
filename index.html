@@ -42,6 +42,18 @@
 
 <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
 
+<!--ONESIGNAL-->
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "fed947de-518c-4eb2-96f9-6bfc29c64aa8",
+            });
+        });
+    </script>
+
     <!--JSONLD-->
     <script type="application/ld+json">
 {
